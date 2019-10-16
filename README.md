@@ -31,7 +31,7 @@ is useful for integrating this workflow into other enterprise systems (CMDB, ITS
 To install a webhook to all your workspaces, simply follow these directions.
 
 
-* Fork this repo  
+* [Fork this repo](https://github.com/kecorbin/tfe-workspace-notifications/fork) 
 * [Create a Terraform workspace](https://www.terraform.io/docs/cloud/workspaces/creating.html) for your fork
 * [Create Variables](https://www.terraform.io/docs/cloud/workspaces/variables.html) to define your token, organization and webhook url
 
