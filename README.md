@@ -42,4 +42,4 @@ To install a webhook to all your workspaces, simply follow these directions.
 
 ## Don't have Terraform Enterprise?
 
-No worries, head over to [app.terraform.io](https://app.terraform.io/signup) and sign up for a free account on our SaaS platform. 
+No worries, head over to [app.terraform.io](https://app.terraform.io/signup) and sign up for a free account on [Terraform Cloud](https://www.terraform.io/docs/cloud/index.html)
