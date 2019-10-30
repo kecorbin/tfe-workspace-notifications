@@ -12,6 +12,11 @@ variable "token" {
   description = "TFE User Token"
 }
 
+variable "type" {
+  description = "`generic` or `slack`"
+  default = "generic"
+}
+
 variable "org" {
   description = "TFE Organization to install webhooks to"
 }

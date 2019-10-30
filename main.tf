@@ -15,7 +15,7 @@ resource "tfe_notification_configuration" "webhook" {
   for_each         = data.tfe_workspace_ids.all.external_ids
   name             = "${var.name}"
   enabled          = true
-  destination_type = "generic"
+  destination_type = "${var.type}"
   triggers = [
     "run:created",
     "run:planning",
